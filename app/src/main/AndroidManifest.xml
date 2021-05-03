@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.easyattendance">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Easy Attendance"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.example.easyattendance.RegisterUser"></activity>
+        <activity android:name="com.example.easyattendance.ForgotPassword" />
+        <activity android:name="com.example.easyattendance.Login">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.easyattendance.Reports_Detail_Activity"
+            android:theme="@style/AppTheme2" />
+        <activity android:name="com.example.easyattendance.Reports_Activity" />
+        <activity
+            android:name="com.example.easyattendance.ClassDetail_Activity"
+            android:theme="@style/FullScreenTheme" />
+        <activity
+            android:name="com.example.easyattendance.Insert_class_Activity"
+            android:theme="@style/AppTheme2" />
+        <activity android:name="com.example.easyattendance.MainActivity">
+
+        </activity>
+    </application>
+
+</manifest>

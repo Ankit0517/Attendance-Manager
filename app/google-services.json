@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "785427313757",
+    "project_id": "easy-attendance-1da44",
+    "storage_bucket": "easy-attendance-1da44.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:785427313757:android:8c810b97f55b72d7da09b4",
+        "android_client_info": {
+          "package_name": "com.example.easyattendance"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "785427313757-2t63k8mha6n5cusd8ec2ir0r0d9tadm2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDj1XpQgHMT1kjh3bfKl_4tnjMJE_Mf7lY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "785427313757-2t63k8mha6n5cusd8ec2ir0r0d9tadm2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
